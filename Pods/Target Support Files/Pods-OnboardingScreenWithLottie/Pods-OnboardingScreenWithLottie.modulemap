@@ -1,0 +1,6 @@
+framework module Pods_OnboardingScreenWithLottie {
+  umbrella header "Pods-OnboardingScreenWithLottie-umbrella.h"
+
+  export *
+  module * { export * }
+}

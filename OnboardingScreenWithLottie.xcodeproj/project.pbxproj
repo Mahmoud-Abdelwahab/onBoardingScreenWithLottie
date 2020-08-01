@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACE2969FF8C1891267E89700 /* Pods_OnboardingScreenWithLottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106DA1217059E28300F641C6 /* Pods_OnboardingScreenWithLottie.framework */; };
 		BB23DEE224D53CEA009909EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23DEE124D53CEA009909EB /* AppDelegate.swift */; };
 		BB23DEE424D53CEA009909EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23DEE324D53CEA009909EB /* SceneDelegate.swift */; };
 		BB23DEE924D53CEA009909EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB23DEE724D53CEA009909EB /* Main.storyboard */; };
@@ -15,9 +16,15 @@
 		BB23DEF624D54189009909EB /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23DEF524D54189009909EB /* OnBoardingViewController.swift */; };
 		BB23DEF924D55244009909EB /* OnBoardingCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23DEF824D55244009909EB /* OnBoardingCustomCell.swift */; };
 		BB23DEFC24D553E3009909EB /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23DEFB24D553E3009909EB /* Slide.swift */; };
+		BBB9147A24D561AC004DC3C8 /* delivery-guy-waiting.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB9147824D561AB004DC3C8 /* delivery-guy-waiting.json */; };
+		BBB9147B24D561AC004DC3C8 /* guy-Riding.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB9147924D561AC004DC3C8 /* guy-Riding.json */; };
+		BBB9147E24D56A37004DC3C8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9147D24D56A37004DC3C8 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106DA1217059E28300F641C6 /* Pods_OnboardingScreenWithLottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingScreenWithLottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		574377908E068B9B63AEA428 /* Pods-OnboardingScreenWithLottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingScreenWithLottie.release.xcconfig"; path = "Target Support Files/Pods-OnboardingScreenWithLottie/Pods-OnboardingScreenWithLottie.release.xcconfig"; sourceTree = "<group>"; };
+		9DB18BC0E178583C1A7334D8 /* Pods-OnboardingScreenWithLottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingScreenWithLottie.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingScreenWithLottie/Pods-OnboardingScreenWithLottie.debug.xcconfig"; sourceTree = "<group>"; };
 		BB23DEDE24D53CEA009909EB /* OnboardingScreenWithLottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingScreenWithLottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB23DEE124D53CEA009909EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB23DEE324D53CEA009909EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +35,9 @@
 		BB23DEF524D54189009909EB /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		BB23DEF824D55244009909EB /* OnBoardingCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCustomCell.swift; sourceTree = "<group>"; };
 		BB23DEFB24D553E3009909EB /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		BBB9147824D561AB004DC3C8 /* delivery-guy-waiting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "delivery-guy-waiting.json"; sourceTree = "<group>"; };
+		BBB9147924D561AC004DC3C8 /* guy-Riding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "guy-Riding.json"; sourceTree = "<group>"; };
+		BBB9147D24D56A37004DC3C8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE2969FF8C1891267E89700 /* Pods_OnboardingScreenWithLottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22EB8F813159338271F8B8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				106DA1217059E28300F641C6 /* Pods_OnboardingScreenWithLottie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AFF8F46CAEEEBE60B70C210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DB18BC0E178583C1A7334D8 /* Pods-OnboardingScreenWithLottie.debug.xcconfig */,
+				574377908E068B9B63AEA428 /* Pods-OnboardingScreenWithLottie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BB23DED524D53CEA009909EB = {
 			isa = PBXGroup;
 			children = (
 				BB23DEE024D53CEA009909EB /* OnboardingScreenWithLottie */,
 				BB23DEDF24D53CEA009909EB /* Products */,
+				2AFF8F46CAEEEBE60B70C210 /* Pods */,
+				22EB8F813159338271F8B8F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +90,7 @@
 		BB23DEE024D53CEA009909EB /* OnboardingScreenWithLottie */ = {
 			isa = PBXGroup;
 			children = (
+				BBB9147C24D5623F004DC3C8 /* LottieAssets */,
 				BB23DEFE24D5545C009909EB /* Support */,
 				BB23DEFD24D55450009909EB /* Views */,
 				BB23DEFA24D553BA009909EB /* Model */,
@@ -91,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				BB23DEF524D54189009909EB /* OnBoardingViewController.swift */,
+				BBB9147D24D56A37004DC3C8 /* HomeVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +137,15 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		BBB9147C24D5623F004DC3C8 /* LottieAssets */ = {
+			isa = PBXGroup;
+			children = (
+				BBB9147824D561AB004DC3C8 /* delivery-guy-waiting.json */,
+				BBB9147924D561AC004DC3C8 /* guy-Riding.json */,
+			);
+			path = LottieAssets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB23DEF224D53CF3009909EB /* Build configuration list for PBXNativeTarget "OnboardingScreenWithLottie" */;
 			buildPhases = (
+				0C46E31D0FE5BCDBDEE37230 /* [CP] Check Pods Manifest.lock */,
 				BB23DEDA24D53CEA009909EB /* Sources */,
 				BB23DEDB24D53CEA009909EB /* Frameworks */,
 				BB23DEDC24D53CEA009909EB /* Resources */,
+				7942840E709939653BBC16E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,12 +207,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB23DEEE24D53CF3009909EB /* LaunchScreen.storyboard in Resources */,
+				BBB9147B24D561AC004DC3C8 /* guy-Riding.json in Resources */,
 				BB23DEEB24D53CF3009909EB /* Assets.xcassets in Resources */,
+				BBB9147A24D561AC004DC3C8 /* delivery-guy-waiting.json in Resources */,
 				BB23DEE924D53CEA009909EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C46E31D0FE5BCDBDEE37230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingScreenWithLottie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7942840E709939653BBC16E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingScreenWithLottie/Pods-OnboardingScreenWithLottie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingScreenWithLottie/Pods-OnboardingScreenWithLottie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingScreenWithLottie/Pods-OnboardingScreenWithLottie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB23DEDA24D53CEA009909EB /* Sources */ = {
@@ -179,6 +266,7 @@
 				BB23DEE224D53CEA009909EB /* AppDelegate.swift in Sources */,
 				BB23DEE424D53CEA009909EB /* SceneDelegate.swift in Sources */,
 				BB23DEF624D54189009909EB /* OnBoardingViewController.swift in Sources */,
+				BBB9147E24D56A37004DC3C8 /* HomeVC.swift in Sources */,
 				BB23DEF924D55244009909EB /* OnBoardingCustomCell.swift in Sources */,
 				BB23DEFC24D553E3009909EB /* Slide.swift in Sources */,
 			);
@@ -322,6 +410,7 @@
 		};
 		BB23DEF324D53CF3009909EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB18BC0E178583C1A7334D8 /* Pods-OnboardingScreenWithLottie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -339,6 +428,7 @@
 		};
 		BB23DEF424D53CF3009909EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574377908E068B9B63AEA428 /* Pods-OnboardingScreenWithLottie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,14 +7,16 @@
 //
 
 import UIKit
+
 struct Slide {
+    
     let title : String
     let animationName : String
     let ButtonTitle   : String
     let ButtonColor   : UIColor
     
     static let collection:[Slide] = [
-        .init(title : "Get Your Favorite Food Delivered to you under 30 minutes anytime", animationName: "", ButtonTitle: "Next", ButtonColor: UIColor.systemYellow),
-        .init(title : "We Serve Only From Choiced restaurants in your area", animationName: "", ButtonTitle: "Order Now", ButtonColor: UIColor.systemGreen)
+        .init(title : "Get Your Favorite Food Delivered to you under 30 minutes anytime", animationName: "guy-Riding", ButtonTitle: "Next", ButtonColor: UIColor.systemYellow),
+        .init(title : "We Serve Only From Choiced restaurants in your area", animationName: "delivery-guy-waiting", ButtonTitle: "Order Now", ButtonColor: UIColor.systemGreen)
     ]
 }
